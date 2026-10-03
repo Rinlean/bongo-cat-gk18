@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Arcade-Bongo-Cat GK-18</title>
+
+  <link rel="stylesheet" href="bgandpos.css">
+</head>
+
+<body>
+  <!-- Layers are stacked in this order. The key lights and paw poses (one image per key)
+       are added by hitboxGK18.js from its KEYS list. -->
+  <div id="fondo">
+    <img src="bongo/img/gk18/bg.png" alt="">
+  </div>
+
+  <!-- Talking face: shown while the mic hears you, drawn on top of the background. -->
+  <div id="fondoTalk" class="invisible">
+    <img src="bongo/img/gk18/talk.png" alt="">
+  </div>
+
+  <div id="lights"></div>
+
+  <!-- left paw (right side of the picture): idle pose + one pose per key -->
+  <div id="leftPaws">
+    <img id="leftIdle" class="invisible" src="bongo/img/gk18/leftup.png" alt="">
+  </div>
+
+  <!-- right paw (left side of the picture): idle pose + one pose per key -->
+  <div id="rightPaws">
+    <img id="rightIdle" class="invisible" src="bongo/img/gk18/rightup.png" alt="">
+  </div>
+</body>
+
+<script src="hitboxGK18.js"></script>
+
+</html>

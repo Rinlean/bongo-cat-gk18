@@ -38,3 +38,7 @@ Append query params to `hitboxGK18.html`:
 - Edit the `KEYS` list in `hitboxGK18.js` to change which physical inputs drive each on-screen key.
 - Edit `OUTPUTS` in `hitboxGK18.js` if your browser/controller mapping differs.
 - Replace images in `bongo/img/gk18` to reskin the overlay while keeping filenames the same.
+
+## Credits
+
+- Original project inspiration and base concept: [ROMthesheep/Arcade-Bongo-Cat](https://github.com/ROMthesheep/Arcade-Bongo-Cat)

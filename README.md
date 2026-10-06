@@ -2,6 +2,10 @@
 
 Arcade Bongo Cat browser overlay for the GuileKeys GK-18 controller.
 
+## Link for using in OBS or TikTok Live Studio
+
+https://rinlean.github.io/bongo-cat-gk18/
+
 ## What it does
 
 - Shows a GK-18 themed Bongo Cat background.
